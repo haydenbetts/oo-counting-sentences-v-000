@@ -17,6 +17,6 @@ class String
   def count_sentences
     # "one. two. three?".count_sentences).to eq(3)
     # ".count_sentences).to eq(0)
-    # 
+    # "This, well, is a sentence. This is too!! And so is this, I think? Woo..." expect(complex_string.count_sentences).to eq(4)
   end
 end
