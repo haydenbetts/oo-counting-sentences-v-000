@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-
+    # "one. two. three?".count_sentences).to eq(3)
+    # ".count_sentences).to eq(0)
+    # 
   end
 end
